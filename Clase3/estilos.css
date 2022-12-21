@@ -3,10 +3,9 @@
 
 body{
     background-color: #3498db;
-   
-
-
-
+    background-image: url(../Clase2/imagenes/picaflor.jpg);
+    background-attachment: fixed;
+    
 }
 
 p{
@@ -17,8 +16,23 @@ h1{
     background-color: blueviolet;
     width: 400px;/* unidad fija */
     height: 20vh;/* alto de un elemento */
+    display: inline-block;/* display cambia el comportamiento del elemento, ene ste caso, de bloque a linea */
 }
+a{
+    background-color: peru;
+    color: white;
+    width: 100px;
+    /*padding-bottom: 10px;*/
+    padding: 10px;
+    border: black 2px solid;/* 3 valores: color, grosor, tipo de borde */
+    border-radius: 20px;/* redondear los bordes */
+    margin-top: 80px;
+    display: block;
+    
 
+
+
+}
 
 /* selectores de clase*/
 /*.nombreDeLaClase */
