@@ -1,0 +1,40 @@
+/* comentarios en CSS*/
+/* Selectores*/
+
+body{
+    background-color: #3498db;
+}
+
+p{
+    color: green;
+    background-color: yellow;
+}
+h1{
+    background-color: blueviolet;
+}
+
+
+/* selectores de clase*/
+/*.nombreDeLaClase */
+
+.textoRojo{
+    color: red;
+}
+
+.letras{
+    /* propiedades*/
+    color: blue;
+}
+
+
+/* selectores por id*/
+
+#unTexto{
+    background-color: aquamarine;
+}
+
+img{
+    width: auto;
+}
+
+/* width: ancho de un elemento*/
