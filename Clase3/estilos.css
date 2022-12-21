@@ -3,6 +3,10 @@
 
 body{
     background-color: #3498db;
+   
+
+
+
 }
 
 p{
@@ -11,6 +15,8 @@ p{
 }
 h1{
     background-color: blueviolet;
+    width: 400px;/* unidad fija */
+    height: 20vh;/* alto de un elemento */
 }
 
 
@@ -34,7 +40,36 @@ h1{
 }
 
 img{
-    width: auto;
+    /*width: 50%;/* width: ancho de un elemento*/
+    height: 100vh;
 }
 
-/* width: ancho de un elemento*/
+ul{
+    width: 800px;
+    height: 100px;
+    background-color: red;
+}
+li{
+    width: 50%;/* seria el 50% del padre (ul)=400px */
+    height: 25%;
+    background-color: violet;
+}
+
+div{
+    width: 300px;
+    height: 200px;
+    background-image: url(../Clase2/imagenes/pexels-lisa-fotios-3632658.jpg);
+
+
+
+}
+
+.imgDiv{
+    width: 100%;
+}
+
+/* UNIDADES
+    -Porcentaje (%): toma como 100% la medida del padre, para saber cuanto valdrá del hijo
+*/
+/* 25vh -> vh (view height): 25% del alto de la pantalla
+    50vw -> vh (view width): 50% del ancho de la pantalla  */
