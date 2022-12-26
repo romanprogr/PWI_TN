@@ -1,0 +1,67 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Este selector aplica las propiedades a todo elemento del HTML */
+
+body{
+    background-color: aquamarine;
+}
+
+/* unidades:
+px, %, vh, vw
+1rem, 1em -> 16 px*/
+
+/* Se recomienda no hacer tipografias menores a 14px */
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;/* transforma todo a mayusculas */ /* lowercase: transforma todo a minusculas */ /* capitalize: La primer letra en mayuscula */
+    text-decoration: underline;
+    text-shadow:
+            3px 3px grey,
+            8px 8px 5px white;
+}
+h2{
+    font-family: 'Dancing Script', cursive; 
+    font-weight: 700;
+}
+.subtitulo{
+    font-size: 4em;
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    background-color: greenyellow;
+    /* Dentro del ancho del 50% de la pantalla, el texto esta centrado  */
+}
+p{
+    text-align:justify;
+}
+
+a{
+    text-decoration: none;/* la opcion none anula la propiedad; en este caso anula el subrayado */
+}
+ul{
+    /*  list-style-type: circle;*/
+    list-style-image: url(../Clase2/imagenes/picaflor.jpg);
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+button{
+    padding: 20px;
+    /*  box-shadow: 15px -5px 5px #f90;
+    /* Sombras: el primero es para la derecha, el segundo para abajo, el tercero es difuminar y el ultimo el color
+    si es positivo toma hacia la derecha y hacia abajo
+    si es negativo hacia la izquierda y hacia arriba */
+
+    box-shadow: 
+            inset -5px -5px 5px #f90,
+    /* el inset le da propidades internas al elemento */
+            5px 5px blue,
+            15px 5px 10px red;
+    /* Se pueden agregar varias sombras. tener presente que para esta continuidad debe haber una coma al final de cada sombra, y terminar con punto y coma */
+
+
+}
