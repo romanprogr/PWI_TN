@@ -1,0 +1,64 @@
+.container{
+    background-color: aquamarine;
+    height: 300px;
+}
+
+.cubo{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+img{
+    z-index: 0px;
+    width: 100%;
+}
+
+/* relative */
+.uno{
+    background-color: #f90;
+    position: relative;
+    top: 100px;
+    left: 190px;
+    /* sacamos al elemento de su posicion inicial con top-left-right-bottom */
+}
+
+/* absolute */
+.dos{
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+/* absolute: busca el padre con position relative mas cercano y lo toma como referencia para ubicarse. si no hay ninguno, toma como referencia al <body> */
+
+.fondo{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.textointerno{
+    position: absolute;
+    top: 180px;
+    text-align:justify;
+}
+
+/* fixed */
+.tres{
+    background-color: yellow;
+    position: fixed;
+    bottom: 200px;
+    right: 10px;
+    z-index: 1;/* indicarle que tan encima va a estar de los demas elementos. cuanto mas grande el numero, mas encima estara. utiliza numeros enteros */
+}
+
+/* sticky */
+/* mantiene el espacio (se compporta relative), y se vuelve fixed cuando hacemos scroll */
+.cuatro{
+    position: sticky; 
+    top: 1px;
+    
+}
